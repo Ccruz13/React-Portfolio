@@ -2,6 +2,8 @@ import React, {useState}from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/AboutMe';
+import Hero from './components/Hero';
+import Projects from './components/Projects';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
       />
+      <Hero />
+      <Projects />
       <main>
 
       </main>

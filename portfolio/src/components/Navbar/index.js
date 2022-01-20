@@ -21,13 +21,19 @@ function Navbar (props) {
             </a>
           </li>
           <li className={`${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Projects</span>
+          <a href="#projects" onClick={() => setContactSelected(true)}>
+              Projects
+            </a>
           </li>
           <li className={`${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact Me</span>
+          <a href="#contact" onClick={() => setContactSelected(true)}>
+              Contact Me
+            </a>
           </li>
           <li className={`${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Resume</span>
+          <a href="#resume" onClick={() => setContactSelected(true)}>
+              Resume
+            </a>
           </li>
         </ul>
             </div>
