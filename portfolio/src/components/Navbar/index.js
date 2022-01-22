@@ -1,4 +1,5 @@
 import React from 'react';
+import './nav.css';
 
 function Navbar (props) {
 
@@ -14,24 +15,24 @@ function Navbar (props) {
                 <h2>
                 <a href="/" className="navbar-logo">Charlie</a>
                 </h2>
-                <ul className="flex-row">
-          <li>
-            <a href="#about" onClick={() => setContactSelected(false)}>
+                <ul className="nav-menu">
+          <li className="nav-item">
+            <a className='nav-links' href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
           </li>
-          <li className={`${contactSelected && 'navActive'}`}>
-          <a href="#projects" onClick={() => setContactSelected(true)}>
+          <li className={`${contactSelected && "nav-item"}`}>
+          <a className='nav-links' href="#projects" onClick={() => setContactSelected(true)}>
               Projects
             </a>
           </li>
-          <li className={`${contactSelected && 'navActive'}`}>
-          <a href="#contact" onClick={() => setContactSelected(true)}>
+          <li className={`${contactSelected && "nav-item"}`}>
+          <a className='nav-links' href="#contact" onClick={() => setContactSelected(true)}>
               Contact Me
             </a>
           </li>
-          <li className={`${contactSelected && 'navActive'}`}>
-          <a href="#resume" onClick={() => setContactSelected(true)}>
+          <li className={`${contactSelected && "nav-item"}`}>
+          <a className='nav-links' href="#resume" onClick={() => setContactSelected(true)}>
               Resume
             </a>
           </li>
