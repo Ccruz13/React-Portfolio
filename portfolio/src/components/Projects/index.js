@@ -5,7 +5,7 @@ import './projects.css';
 
 function Projects() {
     return (
-        <div className='cards'>
+        <div className='cards' id='projects'>
             <h1>Check Out My Projects</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>

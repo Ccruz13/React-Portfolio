@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import ContactForm from './components/Contact';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -11,12 +13,11 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
-      />
+      <Navbar/>
       <Hero />
       <Projects />
+      <ContactForm />
+      <Footer />
       <main>
 
       </main>
