@@ -8,6 +8,7 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', subject: '', message: '' });
     const { name, email, subject, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
+    const [submitMessage, setSubmitMessage] = useState('');
 
     function handleChange(e) {
         if (e.target.name === 'email') {
@@ -37,6 +38,7 @@ function ContactForm() {
         e.preventDefault();
         emailjs.sendForm('service_66eqdv4', 'template_ixhtcgs', e.target, 'user_JzOFJbIBhHy10SkpfQJGc')
             .then((result) => {
+                setSubmitMessage('Form has been submitted! Thank you!')
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
@@ -70,6 +72,11 @@ function ContactForm() {
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+                {submitMessage && (
+                    <div>
+                        <p className="submit-text">{submitMessage}</p>
                     </div>
                 )}
                 <button data-testid="button" type="submit" >Submit</button>

@@ -33,13 +33,14 @@ function Projects() {
                         />
                         <CardItem
                             src={require('../../photos/MVC.png')}
-                            text='Explore the hidden waterfall deep inside the Amazon Jungle'
+                            text='A blog where a user can login, logout, and create threads with a title and content where thay can say anything they want.'
                             path= "https://hidden-earth-76168.herokuapp.com/"
                         />
                         <CardItem
-                            src={require('../../photos/DollarFlights.png')}
-                            text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                            path= "https://djamz919.github.io/DollarFlights/"
+                            src={require('../../photos/books.png')}
+                            text='This application can search for books leveraging the entire MERN stack.
+                             Also, this application uses a React front end, MongoDB database backend, Node.js/Express.js server, GraphQL API and Apollo Server.'
+                            path= "https://fathomless-headland-86134.herokuapp.com/"
                         />
                     </ul>
                 </div>
