@@ -17,11 +17,10 @@ function Projects() {
                             path= "https://djamz919.github.io/DollarFlights/"
                         />
                         <CardItem
-                            src={require('../../photos/NWA.png')}
-                            text='A blog where users can create an account and post about how they are feeling or anything they may want to express.
-                            Users can also comment on eachothers posts with positive words.
-                            Tools we used were JavaScript, Express, Node.js, Sequelize, and Handlebars.'
-                            path= "https://never-walk-alone.herokuapp.com"
+                            src={require('../../photos/Tool.png')}
+                            text='An application that lets you rent tools at a daily cost. A user can create an account, add items to their cart and checkout using a Stripe platform.
+                            This application uses tools like React, CSS, MongoDB, Node.js/Express, GraphQl, and Apollo/client.'
+                            path= "https://rent-a-tool.herokuapp.com/"
                         />
                     </ul>
                     <ul className='cards__items'>
