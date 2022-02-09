@@ -50,12 +50,9 @@ video {
     }
   }
 
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 570px) {
     body {
       width:  130vw;
-    }
-    .hero-container{
-      position: relative;
     }
 
     .hero-container > h2 {
@@ -66,5 +63,11 @@ video {
   
     .hero-container > p {
       font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 410px){
+    body {
+      width:  155vw;
     }
   }
