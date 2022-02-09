@@ -49,3 +49,18 @@
     overflow: hidden;
 }
 }
+
+@media screen and (max-width: 460px){
+  .about {
+    padding: 1rem;
+    background: #fff;
+}
+  .about-me-text{
+    padding: 0 10px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 350px;
+    float: left;
+  }
+}

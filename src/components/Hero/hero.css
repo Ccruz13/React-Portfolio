@@ -49,3 +49,22 @@ video {
       font-size: 30px;
     }
   }
+
+  @media screen and (max-width: 460px) {
+    body {
+      width:  130vw;
+    }
+    .hero-container{
+      position: relative;
+    }
+
+    .hero-container > h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  }
