@@ -2,6 +2,7 @@ import React from 'react';
 
 
 function CardItem(props) {
+
     return (
         <li className='cards__item'>
 
@@ -17,7 +18,8 @@ function CardItem(props) {
                     {props.text}
                     
                 </p>
-                <a href={props.path} >Click On Me</a>
+                <button className="card__button" type="button"><a href={props.path}>Live Link</a></button>
+                <button className="card__button" type="button"><a href={props.source}>GitHub</a></button>
             </div>
         </li>
     )

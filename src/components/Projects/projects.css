@@ -88,3 +88,42 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .card__button {
+    width: 125px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+  .card__button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+  }
+
+  .card__button:hover {
+    background-color: rgb(42, 173, 134);
+    color: #fff;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    align-items:flex-end ;
+  }
+
+  .card__button a:hover {
+    color: #fff;
+  }
