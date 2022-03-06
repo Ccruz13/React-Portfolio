@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.3813ed8f.css",
-    "main.js": "/React-Portfolio/static/js/main.0e0c09e6.js",
+    "main.css": "/React-Portfolio/static/css/main.afcb897c.css",
+    "main.js": "/React-Portfolio/static/js/main.263281f5.js",
     "static/media/video.mp4": "/React-Portfolio/static/media/video.39e6c79bffb375ae929a.mp4",
     "static/media/books.png": "/React-Portfolio/static/media/books.461d4f0ababf2fa225af.png",
     "static/media/Tool.png": "/React-Portfolio/static/media/Tool.433ddd8204cb63e4adae.png",
+    "static/media/crypto.png": "/React-Portfolio/static/media/crypto.6a646a2d16d103e6e663.png",
     "static/media/coding.gif": "/React-Portfolio/static/media/coding.18bcba89d4290c3f7580.gif",
-    "static/media/DollarFlights.png": "/React-Portfolio/static/media/DollarFlights.21ab797ceaac6cc0580c.png",
     "static/media/MVC.png": "/React-Portfolio/static/media/MVC.dc94f14e924bb313fb6b.png",
     "static/media/Password.png": "/React-Portfolio/static/media/Password.e661d29bee99aca00a57.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.3813ed8f.css.map": "/React-Portfolio/static/css/main.3813ed8f.css.map",
-    "main.0e0c09e6.js.map": "/React-Portfolio/static/js/main.0e0c09e6.js.map"
+    "main.afcb897c.css.map": "/React-Portfolio/static/css/main.afcb897c.css.map",
+    "main.263281f5.js.map": "/React-Portfolio/static/js/main.263281f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3813ed8f.css",
-    "static/js/main.0e0c09e6.js"
+    "static/css/main.afcb897c.css",
+    "static/js/main.263281f5.js"
   ]
 }
