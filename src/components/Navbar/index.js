@@ -13,7 +13,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <h2>
-            <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <a href="https://ccruz13.github.io/React-Portfolio/" className="navbar-logo" onClick={closeMobileMenu}>
               <i class="fas fa-less-than"></i>
               Charlie  /
               <i class="fas fa-greater-than"></i></a>
