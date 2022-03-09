@@ -75,6 +75,36 @@
     padding: 5px;
   }
 
+  .resume{
+    margin: auto;
+  }
+  .resume-button{
+    color: #fff;
+    background-color: rgb(56, 53, 53);
+    border: 1px solid #fff;
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 15px;
+    font-size: var(--fz-xs);
+  }
+
+  .resume-button:hover{
+    background-color: rgb(42, 173, 134);
+    color: #fff;
+    padding: 20px 60px;
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    align-items:flex-end ;
+  }
+
   @media screen and (max-width: 960px) {
       
     .nav-menu {
@@ -101,6 +131,10 @@
       width: 100%;
       display: table;
     }
+
+    .nav-item{
+      margin-bottom: 2rem;
+    }
   
     .navbar-logo {
       position: absolute;
@@ -123,4 +157,8 @@
       color: #fff;
       font-size: 2rem;
     }
+  }
+
+  .resume-button{
+   margin: auto;
   }

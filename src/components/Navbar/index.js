@@ -37,6 +37,9 @@ function Navbar() {
                 Contact Me
               </a>
             </li>
+            <li className="resume">
+            <a className="resume-button" href="file:///Users/charliecruz/Downloads/Dev%20Resume.pdf" target="_blank">Resume</a>
+            </li>
           </ul>
         </div>
       </nav>
