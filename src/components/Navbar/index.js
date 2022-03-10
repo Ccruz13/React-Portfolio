@@ -38,7 +38,7 @@ function Navbar() {
               </a>
             </li>
             <li className="resume">
-            <a className="resume-button" href="file:///Users/charliecruz/Downloads/Dev%20Resume.pdf" target="_blank">Resume</a>
+            <a className="resume-button" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:3a15dba1-9e20-4214-8d0b-addd8c92d57b" target="_blank">Resume</a>
             </li>
           </ul>
         </div>
