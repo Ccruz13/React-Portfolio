@@ -14,9 +14,9 @@ function Navbar() {
         <div className="navbar-container">
           <h2>
             <a href="https://ccruz13.github.io/React-Portfolio/" className="navbar-logo" onClick={closeMobileMenu}>
-              <i class="fas fa-less-than"></i>
+              <i className="fas fa-less-than"></i>
               Charlie  /
-              <i class="fas fa-greater-than"></i></a>
+              <i className="fas fa-greater-than"></i></a>
           </h2>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
