@@ -5,6 +5,11 @@
     padding: 2em;
     color: #fff;
   }
+
+  .social-logo{
+    color: #fff;
+    text-decoration: none;
+  }
   
   .footer-wrap {
     display: flex;
